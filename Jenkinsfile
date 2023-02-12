@@ -9,7 +9,12 @@ pipeline {
     
     
     }
+  stage ( 'Gradle Build' ) {
+   steps {
+    sh 'gradle build'
+  }
   
+  }
   
   
   
