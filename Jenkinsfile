@@ -1,10 +1,10 @@
 pipeline {
  agent any 
-  tools { gradle 'jenkinsgradle' }
-  stages {
+ tools { gradle 'javagradle' }
+ stages {
     stage {
       steps {
-      sh 'gradle clean'
+       sh 'gradle clean'
       }
     
     
